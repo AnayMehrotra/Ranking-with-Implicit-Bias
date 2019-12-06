@@ -15,7 +15,7 @@ for i in range(384977):
 ### References
 [1] *Interventions for Ranking in the Presence of Implicit Bias*
 L. Elisa Celis, Anay Mehrotra, Nisheeth K. Vishnoi
-ACM Conference on Fairness, Accountability, and Transparency, **ACM FAT* 2020**
+ACM Conference on Fairness, Accountability, and Transparency, **ACM FAT\* 2020**
 
 [2] *RTI Complaint. Decision No. CIC/SG/C/2009/001088/5392, Complaint No. CIC/SG/C/2009/001088*
 Rajeev Kumar, **2009**
