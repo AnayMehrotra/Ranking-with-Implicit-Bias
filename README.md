@@ -4,7 +4,7 @@ This repository contains the code for reproducing the simulations in our paper
 
 **Interventions for Ranking in the Presence of Implicit Bias**<br>
 *L. Elisa Celis, Anay Mehrotra, Nisheeth K. Vishnoi*<br>
-ACM Conference on Fairness, Accountability, and Transparency, **ACM FAT\* 2020**
+ACM Conference on Fairness, Accountability, and Transparency, **ACM FAT\* 2020**<br>
 arXiv: https://arxiv.org/abs/2011.04219
 
 
