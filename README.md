@@ -9,11 +9,11 @@ arXiv: https://arxiv.org/abs/2011.04219
 
 
 ## Running Simulations
-To run the simulations, inside the `simulations` folder, execute
+To run the simulations, inside the `experiments` folder, execute
 ```
 python experiments.py
 ```
-To generate other additional plots in the paper, inside the `simulations` folder, execute
+To generate other additional plots in the paper, inside the `experiments` folder, execute
 ```
 python jee2009-additional-figs.py
 python semantic-scholar-additional-figs.py
