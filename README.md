@@ -1,9 +1,29 @@
-# Ranking-with-Implicit-Bias
+# Code for "Interventions for Ranking in the Presence of Implicit Bias"
 
-This repository provides a copy of the 2009 IIT-JEE Scores Dataset released in response to a Right to Information application filed in June 2009 [2]. We use this dataset to empirically evaluate the constraints to mitigate implicit bias in rankings proposed in our FAT*'20 paper [1].
+This repository contains the code for reproducing the simulations in our paper
+
+**Interventions for Ranking in the Presence of Implicit Bias**<br>
+*L. Elisa Celis, Anay Mehrotra, Nisheeth K. Vishnoi*<br>
+ACM Conference on Fairness, Accountability, and Transparency, **ACM FAT\* 2020**
+arXiv: https://arxiv.org/abs/2011.04219
 
 
-### Parsing the dataset (using Python 3.*)
+## Running Simulations
+To run the simulations, inside the `simulations` folder, execute
+```
+python experiments.py
+```
+To generate other additional plots in the paper, inside the `simulations` folder, execute
+```
+python jee2009-additional-figs.py
+python semantic-scholar-additional-figs.py
+```
+
+## 2009 IIT-JEE Scores Dataset 
+This repository also provides a copy of the 2009 IIT-JEE Scores Dataset released in response to a Right to Information application filed in June 2009 [1]. We use this dataset in our empirical evaluations.
+
+
+#### Parsing the dataset (using Python 3.*)
 ```
 from meza import io
 record = io.read('jee2009.mdb')
@@ -12,12 +32,6 @@ for i in range(384977):
     result.append(next(record))
 ```
 
-### References
-[1] *Interventions for Ranking in the Presence of Implicit Bias*
-L. Elisa Celis, Anay Mehrotra, Nisheeth K. Vishnoi
-ACM Conference on Fairness, Accountability, and Transparency, **ACM FAT\* 2020**
-
-[2] *RTI Complaint. Decision No. CIC/SG/C/2009/001088/5392, Complaint No. CIC/SG/C/2009/001088*
+## References
+[1] *RTI Complaint. Decision No. CIC/SG/C/2009/001088/5392, Complaint No. CIC/SG/C/2009/001088*
 Rajeev Kumar, **2009**
-
-
